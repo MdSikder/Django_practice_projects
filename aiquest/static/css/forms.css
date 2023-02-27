@@ -1,0 +1,14 @@
+form{
+    border: 5px solid blue;
+}
+
+label{
+    font-size: 25px;
+    color: brown;
+
+}
+input{
+    height: 20px;
+    width: 200px;
+    background-color: aliceblue;
+}

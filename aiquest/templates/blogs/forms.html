@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% load static %}
+{% comment %} {% load %} {% endcomment %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="{% static 'css/forms.css'%}" />
+</head>
+<body>
+    <form action="" method="POST">  {% csrf_token %}
+        {% comment %} <table> {{form}} </table> {% endcomment %}
+        {{form.as_p}}
+        <input type="Submit" value="Submit">
+    </form>
+    
+</body>
+</html>

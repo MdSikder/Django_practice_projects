@@ -1,0 +1,33 @@
+body{
+
+    background-color: rosybrown;
+
+}
+
+h1 {
+    background-color: beige;
+    color: black;
+
+
+}
+
+*{
+    color: whitesmoke;
+    font-weight: 900;
+    
+
+}
+
+.font{
+
+    font-size: 15px;
+}
+
+#hello{
+    background-color: blue;
+}
+
+.d,.i{
+    font-size: 50;
+    background-color: blueviolet;
+}
